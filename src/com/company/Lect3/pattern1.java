@@ -3,7 +3,7 @@ package com.company.Lect3;
 
 import java.util.Scanner;
 
-public class pattern1 {
+public class pattern1 {     // program to print the star pattern
 
     public static void main(String[] args) {
 
@@ -13,11 +13,11 @@ public class pattern1 {
 
         int row=1;
 
-        while(row<=n){
+        while(row<=n){      // loop for the no. of rows in the pattern
 
             int col=1;
 
-            while(col<=row){
+            while(col<=row){        // loop for the no. of columns in the pattern
                 System.out.print("*"+"\t");
                 col=col+1;
             }
