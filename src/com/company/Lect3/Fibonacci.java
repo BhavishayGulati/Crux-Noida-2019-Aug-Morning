@@ -7,7 +7,7 @@ public class Fibonacci {
 
         Scanner scan= new Scanner(System.in);
         int n=scan.nextInt();
-        int f=0;
+        int f=0;        // intializing the intial elements of the fibonacci series
         int s=1;
 
         while(n>0){
@@ -16,6 +16,6 @@ public class Fibonacci {
             s=t;
             n=n-1;
         }
-        System.out.println(f);
+        System.out.println(f);      
     }
 }
